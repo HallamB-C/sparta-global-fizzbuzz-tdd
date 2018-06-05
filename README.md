@@ -1,2 +1,16 @@
-# sparta-global-fizzbuzz-tdd
-A fizzbuzz homework using test driven development
+# FizzBuzz TDD
+
+## Deliverables
+
+create list
+
+init rspec
+
+test
+
+* Must be OOP
+* Must be developed TDD approach
+* Must be testable
+* Must have README.md with instructions on how to run the code
+
+## __Task__ -  "Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”
