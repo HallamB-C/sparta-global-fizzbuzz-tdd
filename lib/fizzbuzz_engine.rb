@@ -1,6 +1,7 @@
 class FizzBuzzEngine
 
-    @output
+  @output
+
 
   def fizzbuzz number
     if number % 3 == 0 and number % 5 == 0
@@ -21,16 +22,20 @@ class FizzBuzzEngine
 
   def doloop
 
+    @nums = []
     1.upto 100 do |num|
       fizzbuzz(num)
       puts num
+      @nums << num
       @output = num
     end
-    @output
+    p @nums
+    @nums
+
 
   end
 
-
-
-
 end
+
+bob = FizzBuzzEngine.new
+bob.doloop

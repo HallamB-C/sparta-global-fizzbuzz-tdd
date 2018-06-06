@@ -8,7 +8,7 @@ describe FizzBuzzEngine do
 
   it 'should run i from 0 to 100' do
 
-    expect(@fizzbuzz.doloop).to eq(100)
+    expect(@fizzbuzz.doloop.length).to eq(100)
   end
 
   it 'should output FizzBuzz' do
